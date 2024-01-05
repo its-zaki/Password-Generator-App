@@ -67,7 +67,7 @@ const App = () => {
 
   return (
     <>
-    <h2 className='head'>Password Generator</h2>
+     <h2 className='head'>Password Generator</h2>
       <div className='container'>
         <div className='result-container'>
           <h2 id="result">{password}</h2>
@@ -75,7 +75,7 @@ const App = () => {
         </div>
         <div className="options">
           <label htmlFor="length">Password Length {length}</label>
-          <input type="range" id="length" min={6} max={14} onChange={(e) => setLength(e.target.value)}
+          <input type="range" className='range range-sm w-[100px]' id="length" min={6} max={14} onChange={(e) => setLength(e.target.value)}
             value={length} />
         </div>
 
