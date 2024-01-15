@@ -223,7 +223,7 @@ body {
   font-size: 1.5rem;
 }
 
-.generateButton {
+.copyButton {
   width: 100%;
   padding: 0.8rem 0;
   background-color: var(--vb-violet);
@@ -236,6 +236,10 @@ body {
   font-weight: 600;
   font-size: 1.25rem;
   cursor: pointer;
+}
+.copyButton:hover{
+  background-color: #ffffff;
+
 }
 
 .check {
@@ -355,7 +359,7 @@ body {
   .length-container p:nth-child(2) {
     font-size: 1rem;
   }
-  .generateButton {
+  .copyButton {
     font-weight: 600;
     font-size: 1rem;
   }
